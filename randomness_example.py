@@ -4,12 +4,16 @@
 import codecs
 import sys
 import random
+import os
 
 import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 import numpy as np
 
-
+# create output-dir, if not already existing
+if not os.path.isdir('figures'):
+    os.makedirs('figures')
+    
 
 # data structures used for data storage later on.
 sum_distribution = []
