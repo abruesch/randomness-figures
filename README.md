@@ -8,3 +8,6 @@ transition probabilities from every nth to every (n+1)th bit.
 	$./randomness_examples.py heatmap
 
 will generated a heatmap of the bit strings turned into random walks in a galton board.
+
+If you find this code useful, please consider citing [our preprint](https://arxiv.org/abs/1804.03997).
+
